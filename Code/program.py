@@ -1,3 +1,5 @@
+
+
 from __future__ import division
 import twitter, json, sys, os, time, gzip
 from pprint import pprint
@@ -14,7 +16,7 @@ import networkx as nx
 from scipy import integrate
 
 ####################################
-#### Summary
+Summary
 # 1. Get the list of most popular sources
 # 2. Selection of the "good" users and calculate distances
 # 3. Places where users spend most of the time

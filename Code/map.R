@@ -1,9 +1,7 @@
 
-setwd("/Volumes/Transcend/Projet2/")
+setwd("/Volumes/Projet2/")
 
 ###########################################################
-###### 1. Cartographie réseau
-#### Mon code
 # filemap <- read.table("Data/user_most_time.dat")
 # library(maps)
 # #pdf("Graphs/network_ME_users.pdf")
@@ -24,7 +22,6 @@ setwd("/Volumes/Transcend/Projet2/")
 # }
 # #dev.off()
 
-# ##### Code Bruno
 file <- read.table("Data/users_most_time_out.dat")
 jet.colors <- colorRampPalette(c("#003399", "#7DF9FF"))(256)
 

@@ -26,7 +26,7 @@ Summary
 # 7. Plots of graphs
 ######################################
 
-# Raw data: tweets from Irak/Syria
+# Raw data: tweets from Iraq/Syria
 data = '/Volumes//Projet2/Data/isis_tweets_full.dat.gz'
 
 ###############################
@@ -355,10 +355,10 @@ for edge in outSI:
 # 	poids = int(trav.split()[4])
 # 	depart = (x0,y0)
 # 	arrive = (x1,y1)
-# 	# # All edges coming from Syria/Irak
+# 	# # All edges coming from Syria/Iraq
 # 	# if depart > (35,28) and depart < (48,37):
 # 	# 	out_G.add_edge(depart,arrive,weight=1/poids)
-# 	# # All edges going to Syria/Irak	
+# 	# # All edges going to Syria/Iraq	
 # 	# if arrive > (35,28) and arrive < (48,37):
 # 	# 	in_G.add_edge(depart,arrive,weight=1/poids)	
 # 	# By taking 1/poids, one obtains the Maximum Spanning Tree

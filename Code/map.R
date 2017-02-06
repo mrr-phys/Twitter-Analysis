@@ -1,4 +1,6 @@
 
+#This R file makes a map for the immigration data
+
 setwd("/Volumes/Projet2/")
 
 ###########################################################
